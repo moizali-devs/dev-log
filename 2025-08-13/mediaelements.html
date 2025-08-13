@@ -1,0 +1,60 @@
+<!-- 
+ This below project is the sum of what I have learned today 
+🎯 MEDIA ELEMENTS MINI PROJECT — "MY CITY TOUR"
+
+Create a single HTML page as a tourist guide for a city of your choice.
+
+Must include:
+1. Title & Heading with the city’s name.
+2. Short intro paragraph (2–3 lines) about the city.
+3. A video:
+   - Local .mp4 file OR free cinematic clip.
+4. An audio track:
+   - Local music in MP3 format, controls + loop.
+5. Embedded YouTube video:
+   - Vlog or documentary about the city.
+6. Embedded Google Map:
+   - Popular tourist spot in the city.
+
+Rules:
+- Use <div> to group sections.
+- All embeds must work without errors.
+- Video must have a poster thumbnail.
+- Audio must loop and be in MP3 format.
+- Use real YouTube & Maps embed codes (no placeholders).
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My City Tour</title>
+</head>
+
+
+
+<body>
+  <h1> My City Tour</h1>
+  <h2> karachi</h2>
+  <p> Hello this is a website about my city karachi. This will just showcase my skills of html.</p>
+  <div>
+    <p>following is a sample video that is being autoplayed</p>
+    <video width="600" src="city.mp4" muted autoplay controls loop poster="poster.png"></video>
+  </div>
+  <div>
+    <p>following is a sample audio that is being played</p>
+    <audio src="city.mp3" autoplay muted controls loop></audio>
+  </div>
+  <div>
+    <p> this is a youtube video</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FvEQn4mvoPc?si=52MF7v7HXYZLybux" title="Youtube Video Player" allowfullscreen></iframe>
+  </div>
+  <div>
+    <p>This is a map to the best university in pakistan</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.1367787573686!2d67.08562087630688!3d24.89331567790776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ed18aeaea6b%3A0xf50bdb260e451aa8!2sBahria%20University%20Karachi%20Campus!5e0!3m2!1sen!2s!4v1755077657425!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</body>
+
+</html>
